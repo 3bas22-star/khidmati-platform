@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منصة خدمتي | Khidmati — خدماتك اليومية أصبحت أسهل</title>
+  <meta name="description" content="منصة خدمتي: كل ما تحتاجه من خدمات رقمية وتصميمية ومنزلية في مكان واحد، بخطوات سهلة. جدة، المملكة العربية السعودية.">
+  <meta name="theme-color" content="#FBF7EE">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- أيقونات الموقع (تُستخدم بـ <use>) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="11" rx="2"/><path d="M2 19h20"/><path d="M9 8l-2 2.5L9 13M15 8l2 2.5-2 2.5"/></symbol>
+    <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18c1.2 0 2-.8 2-1.8 0-.5-.2-.9-.5-1.2-.3-.3-.5-.7-.5-1.2 0-1 .8-1.8 1.8-1.8H17a4 4 0 0 0 4-4c0-4.4-4-8-9-8z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="14.5" cy="7" r="1"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5L12 3l9 7.5"/><path d="M5 9v11h14V9"/><path d="M10 20v-6h4v6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol>
+    <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M8.5 11h.01M12 11h.01M15.5 11h.01"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3.5 7l8.5 6 8.5-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.3"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 2l2.2 6.3L20.5 10.5l-6.3 2.2L12 19l-2.2-6.3L3.5 10.5l6.3-2.2z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3.5 20.5l1.3-4.3A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 1a4.5 4.5 0 0 1-2.4-2.4l1-1-1-2z"/></symbol>
+  </svg>
+
+  <!-- ===== رأس الصفحة وقائمة التنقل ===== -->
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="index.html" class="brand">
+        <img src="logo.svg" alt="" width="42" height="42">
+        <span>منصة خدمتي <small class="en">KHIDMATI</small></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">الرئيسية</a></li>
+        <li><a href="services.html">الخدمات</a></li>
+        <li><a href="contact.html">التواصل وطلب الخدمة</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav-cta">اطلب خدمة</a>
+      <button class="menu-toggle" aria-label="فتح القائمة" aria-expanded="false"><svg class="ic"><use href="#i-menu"/></svg></button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== الواجهة الترحيبية ===== -->
+    <section class="hero spotlight">
+      <div class="glow-follow"></div>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="badge reveal"><span class="pulse"></span> خدمتك أقرب وأسهل مع خدمتي</span>
+          <h1 class="reveal d1">خدماتك اليومية<br><span class="hl grad-text">أصبحت أسهل</span></h1>
+          <p class="reveal d2">كل ما تحتاجه من خدمات في مكان واحد، بخطوات سهلة وتجربة مريحة. خدمات رقمية وتصميمية ومنزلية، تختار المناسب لك وتطلبه مباشرة عبر واتساب.</p>
+          <div class="btns reveal d3">
+            <a href="services.html" class="btn btn-primary">استكشف خدماتنا <svg class="ic"><use href="#i-arrow"/></svg></a>
+            <a href="contact.html" class="btn btn-outline">اطلب خدمة الآن</a>
+          </div>
+        </div>
+
+        <!-- صورة رئيسية: بطاقات طايرة تعبّر عن تنوّع الخدمات -->
+        <div class="hero-visual reveal d2" aria-label="صور تعبّر عن تنوّع خدمات المنصة">
+          <span class="sparkle sp-1"><svg viewBox="0 0 24 24"><use href="#i-sparkle"/></svg></span>
+          <span class="sparkle sp-2"><svg viewBox="0 0 24 24"><use href="#i-sparkle"/></svg></span>
+          <div class="float-card fc-1"><img src="tech.webp" alt="رسم يعبّر عن الخدمات الرقمية والتقنية" width="900" height="600"><span class="label"><svg class="ic"><use href="#i-laptop"/></svg> تقنية</span></div>
+          <div class="float-card fc-3"><img src="design.webp" alt="رسم يعبّر عن خدمات التصميم" width="900" height="600"><span class="label"><svg class="ic"><use href="#i-palette"/></svg> تصميم</span></div>
+          <div class="float-card fc-2"><img src="home.webp" alt="رسم يعبّر عن الخدمات المنزلية" width="900" height="600"><span class="label"><svg class="ic"><use href="#i-home"/></svg> منزل</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== شريط متحرك بأسماء الخدمات ===== -->
+    <div class="marquee-wrap"><div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>إنشاء المواقع</span><span>الحلول الرقمية</span><span>الذكاء الاصطناعي</span><span>تصميم المنشورات</span><span>العروض التقديمية</span><span>Canva</span><span>التنظيف</span><span>الصيانة المنزلية</span><span>المساعدة المنزلية</span>
+        <span>إنشاء المواقع</span><span>الحلول الرقمية</span><span>الذكاء الاصطناعي</span><span>تصميم المنشورات</span><span>العروض التقديمية</span><span>Canva</span><span>التنظيف</span><span>الصيانة المنزلية</span><span>المساعدة المنزلية</span>
+      </div>
+    </div></div>
+
+    <!-- ===== عرض مختصر لأهم الخدمات ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">خدماتنا</span>
+          <h2>أهم ما نقدّمه لك</h2>
+          <p>ثلاث فئات رئيسية تغطي احتياجاتك الرقمية والإبداعية والمنزلية.</p>
+        </div>
+        <div class="grid-3">
+          <a href="services.html#tech" class="svc glow-card reveal">
+            <span class="num">01</span>
+            <span class="icon-box"><svg class="ic"><use href="#i-laptop"/></svg></span>
+            <h3>الخدمات الرقمية والتقنية</h3>
+            <p>مواقع إلكترونية، وحلول رقمية، وأفكار في الذكاء الاصطناعي.</p>
+            <span class="more">التفاصيل <svg class="ic"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a href="services.html#design" class="svc glow-card reveal d1" style="--tint: var(--apricot-light)">
+            <span class="num">02</span>
+            <span class="icon-box"><svg class="ic"><use href="#i-palette"/></svg></span>
+            <h3>التصميم والإبداع</h3>
+            <p>منشورات وإعلانات، وعروض تقديمية، ومحتوى بصري على Canva.</p>
+            <span class="more">التفاصيل <svg class="ic"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a href="services.html#home" class="svc glow-card reveal d2" style="--tint: var(--cream-2)">
+            <span class="num">03</span>
+            <span class="icon-box"><svg class="ic"><use href="#i-home"/></svg></span>
+            <h3>الخدمات المنزلية</h3>
+            <p>تنظيف، وصيانة منزلية، ومساعدة في أعمال المنزل.</p>
+            <span class="more">التفاصيل <svg class="ic"><use href="#i-arrow"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== لماذا تختار خدمتي؟ ===== -->
+    <section class="section why">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">لماذا نحن</span>
+          <h2>لماذا تختار خدمتي؟</h2>
+          <p>صممنا المنصة لتكون بسيطة وواضحة من أول زيارة.</p>
+        </div>
+        <div class="grid-4">
+          <div class="feature reveal"><span class="icon-box"><svg class="ic"><use href="#i-grid"/></svg></span><h3>كل شيء في مكان واحد</h3><p>خدمات متنوعة معروضة بتصنيفات واضحة.</p></div>
+          <div class="feature reveal d1"><span class="icon-box"><svg class="ic"><use href="#i-zap"/></svg></span><h3>طلب سريع</h3><p>تطلب الخدمة برسالة واتساب جاهزة بضغطة زر.</p></div>
+          <div class="feature reveal d2"><span class="icon-box"><svg class="ic"><use href="#i-chat"/></svg></span><h3>تواصل مباشر</h3><p>تتواصل معنا بالواتساب أو البريد الإلكتروني.</p></div>
+          <div class="feature reveal d3"><span class="icon-box"><svg class="ic"><use href="#i-shield"/></svg></span><h3>سعر واضح لطلبك</h3><p>يُحدَّد السعر حسب تفاصيل طلبك قبل البدء.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== طريقة استخدام المنصة ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">طريقة الاستخدام</span>
+          <h2>ثلاث خطوات بينك وبين خدمتك</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal"><span class="step-num">1</span><h3>تصفّح الخدمات</h3><p>ادخل صفحة الخدمات واطّلع على الفئات والخدمات الفرعية.</p></li>
+          <li class="step reveal d1"><span class="step-num">2</span><h3>اختر واطلب</h3><p>اضغط «اطلب الخدمة» أو عبّئ نموذج الطلب بتفاصيلك.</p></li>
+          <li class="step reveal d2"><span class="step-num">3</span><h3>نتواصل معك</h3><p>تصلنا رسالتك على واتساب، ونرد عليك لتحديد التفاصيل والسعر.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== دعوة لطلب الخدمة ===== -->
+    <section class="container">
+      <div class="cta reveal">
+        <h2>جاهز تطلب خدمتك؟</h2>
+        <p>اختر الخدمة المناسبة، ونستلم طلبك مباشرة على واتساب.</p>
+        <div class="btns" style="justify-content:center">
+          <a href="services.html" class="btn btn-warm">استكشف خدماتنا</a>
+          <a href="contact.html" class="btn btn-light">نموذج الطلب</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== التذييل ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand brand-footer">
+          <img src="logo.svg" alt="" width="38" height="38">
+          <span>منصة خدمتي</span>
+        </a>
+        <p>خدمتك أقرب وأسهل مع خدمتي.</p>
+      </div>
+      <div>
+        <h4>روابط</h4>
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="services.html">الخدمات</a></li>
+          <li><a href="contact.html">التواصل وطلب الخدمة</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>تواصل معنا</h4>
+        <ul>
+          <li><svg class="ic"><use href="#i-pin"/></svg> جدة، المملكة العربية السعودية</li>
+          <li><svg class="ic"><use href="#i-phone"/></svg> <a href="https://wa.me/966532010648" target="_blank" rel="noopener" dir="ltr">0532010648</a></li>
+          <li><svg class="ic"><use href="#i-mail"/></svg> <a href="mailto:mahaisai75@gmail.com" class="en">mahaisai75@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">© <span class="year">2026</span> منصة خدمتي · مشروع جامعي في تخصص الذكاء الاصطناعي</p>
+  </footer>
+
+  <!-- زر واتساب عائم -->
+  <a href="https://wa.me/966532010648" class="wa-float" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب">
+    <img src="whatsapp.svg" alt="" width="30" height="30">
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
